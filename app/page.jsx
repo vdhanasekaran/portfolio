@@ -8,7 +8,7 @@ import Home1 from "./(homes)/home-1/page";
 import "../public/assets/css/style.css";
 
 export const metadata = {
-  title: "Vivek - Software Engineer",
+  title: "Vivek - Senior Software Engineer",
   description:
     "Reliable and detail-oriented professional",
 };
