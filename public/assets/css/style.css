@@ -96,7 +96,7 @@ body {
 .section-title {
     font-size: 32px;
     font-weight: 600;
-    color: #dddddd;
+    /* color: #dddddd; */
     margin-bottom: 20px;
 }
 .section-pera {
