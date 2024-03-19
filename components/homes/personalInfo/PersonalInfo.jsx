@@ -54,7 +54,7 @@ export default function PersonalInfo() {
           </div>
 
           <div className="bostami-parsonal-info-btn">
-            <a className="btn-1" href="https://drive.google.com/file/d/1rIKnbqjgN61FvfpNMWpzMX-Ug6hQroVl/view?usp=sharing" download >
+            <a className="btn-1" href="https://drive.google.com/file/d/1n-HQPN1AwFNoaoVQGLUgUS-jeoRPa3Y0/view?usp=sharing" download >
               <span style={{ color: "#fff" }} className="icon">
                 <i className="fa-regular fa-download"></i>
               </span>
