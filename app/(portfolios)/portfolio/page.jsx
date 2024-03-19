@@ -6,9 +6,9 @@ import Portfolio from "@/components/homes/portfolio/Portfolio";
 
 import React from "react";
 export const metadata = {
-  title: "Portfolio-1 || Bostami - Professional portfolio NextJS Template",
+  title: "Vivek - Senior Software Engineer",
   description:
-    "Discover Botami,the most impressive portfolio template for work showcase, blog",
+    "Reliable and detail-oriented professional"
 };
 export default function page() {
   return (

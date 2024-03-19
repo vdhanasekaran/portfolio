@@ -3,9 +3,9 @@ import PersonalInfoTwo from "@/components/homes/personalInfo/PersonalInfoTwo";
 import React from "react";
 
 export const metadata = {
-  title: "Home-2 || Bostami - Professional portfolio NextJS Template",
+  title: "Vivek - Senior Software Engineer",
   description:
-    "Discover Botami,the most impressive portfolio template for work showcase, blog",
+    "Reliable and detail-oriented professional"
 };
 export default function Home2() {
   return (
