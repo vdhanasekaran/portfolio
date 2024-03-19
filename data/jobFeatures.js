@@ -1,7 +1,7 @@
 export const items = [
   {
     id: 1,
-    icon: "/assets/img/app-development.svg",
+    icon: "/assets/img/webdev.svg",
     title: "Web Development",
     description:
       "Responsible for developing, testing, and maintaining software applications specializing in .NET back-end and Javascript front-end development for web.",
@@ -9,7 +9,7 @@ export const items = [
   },
   {
     id: 2,
-    icon: "/assets/img/webdev.svg",
+    icon: "/assets/img/app-development.svg",
     title: "App Development",
     description:
       "History of developing background jobs, queue processing, using Entity Framework as ORM, writing SQL queries, stored procedures, Unit testing using Moq",
@@ -17,7 +17,7 @@ export const items = [
   },
   {
     id: 3,
-    icon: "/assets/img/design.svg",
+    icon: "/assets/img/management.svg",
     title: "Dev Ops",
     description:
       "Deploy systems using automating jobs using Github actions and drive deployment workflows with semantic code analysis and automated security checks  ",
@@ -25,7 +25,7 @@ export const items = [
   },
   {
     id: 4,
-    icon: "/assets/img/photograph.svg",
+    icon: "/assets/img/cloud-computing.svg",
     title: "Cloud",
     description:
       "Basic understanding of Azure IaaS, PaaS. Deployed WebApi using Azure App Service, Used Service bus queue for processing images. Used Azure search Index for faster search.",
@@ -41,7 +41,7 @@ export const items = [
   },
   {
     id: 6,
-    icon: "/assets/img/design.svg",
+    icon: "/assets/img/security.svg",
     title: "Security and Logging",
     description:
       "Implemented OpenID connect for .NET MVC application, OAuth for WebAPI. Store encrypted secrets in key vault or configs. Used logging using NLog, log4net, SeriLog on different projects",

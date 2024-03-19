@@ -40,7 +40,8 @@ export default function ContactTwo() {
                             />
                           </div>
                           <div className="text">
-                            <h5 className="title">{elm.title} :</h5>
+                            
+                            <h5 className="title">{elm.title}</h5>
                             {elm.content.map((elm2, i2) => (
                               <span key={i2}>{elm2}</span>
                             ))}

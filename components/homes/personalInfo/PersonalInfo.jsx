@@ -5,6 +5,7 @@ import Image from "next/image";
 import React from "react";
 
 export default function PersonalInfo() {
+
   return (
     <div className="col-xxl-3 col-xl-3">
       <div className="bostami-parsonal-info-area">
@@ -42,9 +43,11 @@ export default function PersonalInfo() {
                 >
                   <i className={elm.iconClass}></i>
                 </div>
-                <div className="text">
-                  <span>{elm.text.label}</span>
-                  <p>{elm.text.value}</p>
+                <div className="text">  
+                   <span>{elm.text.label}</span>
+                 {((elm.id === 1 || elm.id === 2) && <p><a href={"tel:" + elm.text.value}>{elm.text.value}</a></p>)}
+                 {((elm.id === 3) && <p><a href={"mailto:" + elm.text.value}>{elm.text.value}</a></p>)}
+                 {(elm.id !== 1 && elm.id !== 2 && elm.id !== 3 && <p>{elm.text.value}</p>)}
                 </div>
               </div>
             ))}
