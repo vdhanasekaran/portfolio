@@ -4,7 +4,7 @@ import { Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { blogData } from "@/data/blogs";
 
-import React, { useEffect, useState } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import Modal from "./Modal";
 import Image from "next/image";
 const chunkArray = (arr, chunkSize) => {
@@ -23,6 +23,8 @@ export default function Blog() {
   useEffect(() => {
     setShowSlider(true);
   }, []);
+
+
 
   return (
     <>

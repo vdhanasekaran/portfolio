@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import Menu from "../menus/Menu";
 import { menuItems } from "@/data/menu";
 import Image from "next/image";
@@ -52,8 +52,10 @@ export default function Header() {
     } else {
       document.body.classList.remove("dark-theme");
       addlightBg();
+      
     }
   }, []);
+
 
   return (
     <div className="bostami-header-area mb-30 ">
@@ -86,9 +88,11 @@ export default function Header() {
                     <i className="moonicon fa-solid fa-moon"></i>
                   )}
                 </div>
-                <div
+                <div 
                   className={`menu-btn toggle_menu ${menuOpen && "active"} `}
-                  onClick={() => setMenuOpen((pre) => !pre)}
+                  onClick={() => {
+                    setMenuOpen((pre) => !pre);
+                  }}
                 >
                   <span></span>
                   <span></span>

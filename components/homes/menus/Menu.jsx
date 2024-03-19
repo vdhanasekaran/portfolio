@@ -1,10 +1,15 @@
 "use client";
 
+import { useRef} from 'react';
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 export default function Menu({ setMenuOpen, data }) {
   const pathname = usePathname();
 
+
+  const mainRef = useRef(null);
+
+  
   return (
     <div className="mean-bar">
       <a
