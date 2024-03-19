@@ -10,16 +10,6 @@ export const contactData = [
     },
   },
   {
-    id: 2,
-    color: "#E93B81",
-    fontSize: "22px",
-    iconClass: "fa-regular fa-mobile",
-    text: {
-      label: "Phone (India)",
-      value: "+91 9940135998",
-    },
-  },
-  {
     id: 3,
     color: "#6AB5B9",
     fontSize: "22px",

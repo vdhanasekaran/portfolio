@@ -4,7 +4,7 @@ export const items = [
     icon: "/assets/img/webdev.svg",
     title: "Web Development",
     description:
-      "Responsible for developing, testing, and maintaining software applications specializing in .NET back-end and Javascript front-end development for web.",
+      "Responsible for developing, testing, and maintaining software applications specializing in .NET back-end (MVC, WebAPI, Background jobs, Console app). Experience in front end using Javascript and developing reusable components using React and Angular",
     bg: "bg-catkrill",
   },
   {
@@ -12,15 +12,15 @@ export const items = [
     icon: "/assets/img/app-development.svg",
     title: "App Development",
     description:
-      "History of developing background jobs, queue processing, using Entity Framework as ORM, writing SQL queries, stored procedures, Unit testing using Moq",
+      "History of developing background jobs, message queue processing using IBM MQ and Azure Service bus queue, Handling data using ORM such as Entity Framework Core and also proficient in writing SQL queries, stored procedures",
     bg: "bg-prink",
   },
   {
     id: 3,
     icon: "/assets/img/management.svg",
-    title: "Dev Ops",
+    title: "CI/CD",
     description:
-      "Deploy systems using automating jobs using Github actions and drive deployment workflows with semantic code analysis and automated security checks  ",
+      "Deliver applications and services at high velocity using CI and CD tools such as Jenkins, Github Actions. Centralized logging using tools such as Splunk, Datadog, Azure Application Insights.",
     bg: "bg-prink",
   },
   {
@@ -28,7 +28,7 @@ export const items = [
     icon: "/assets/img/cloud-computing.svg",
     title: "Cloud",
     description:
-      "Basic understanding of Azure IaaS, PaaS. Deployed WebApi using Azure App Service, Used Service bus queue for processing images. Used Azure search Index for faster search.",
+      "Understanding cloud concepts and using Azure PaaS (App Service) to deploy WebApi, I used the Azure Service bus queue for processing images. Azure Search usage for faster search.",
     bg: "bg-catkrill",
   },
   {
@@ -36,7 +36,7 @@ export const items = [
     icon: "/assets/img/design.svg",
     title: "System Design and Architecture",
     description:
-      "Understanding of CDN, Caching, NoSQL, Message Queue concepts. Involved in Low level design based on business requirement document, Test driven development, migrating application to use from in-memory to distriibuted caching while moving app from single to multiple instance.Involved in Low level design based on business requirement document, Test driven development, migrating application to use from in-memory to distriibuted caching while moving app from single to multiple instance",
+      "Moving static files to CDN for better performance, Monitor and store frequently used data in cache. Involved in low-level design based on the business requirement, Followed test-driven development approach for few projects. Migrating single instance application to multiple servers in load balanced environments.",
     bg: "bg-catkrill",
   },
   {
@@ -44,7 +44,15 @@ export const items = [
     icon: "/assets/img/security.svg",
     title: "Security and Logging",
     description:
-      "Implemented OpenID connect for .NET MVC application, OAuth for WebAPI. Store encrypted secrets in key vault or configs. Used logging using NLog, log4net, SeriLog on different projects",
+      "OpenID connect integration in .NET Core MVC application for authentication. Storing hashed passwords in database. Usage of Key-Vault to store secured configuration entries.",
+    bg: "bg-catkrill",
+  },
+  {
+    id: 7,
+    icon: "/assets/img/9.png",
+    title: "Training",
+    description:
+      "Practicing Python, problem solving. Undergoing courses in React, system design principles.",
     bg: "bg-catkrill",
   }
 ];

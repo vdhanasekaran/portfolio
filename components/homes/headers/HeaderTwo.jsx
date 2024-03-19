@@ -29,8 +29,11 @@ export default function HeaderTwo() {
     }
   };
   const handleDarkmode = () => {
-    const currentState = localStorage?.getItem("idDarkMode");
-    if (JSON.parse(currentState) == true) {
+    // const currentState = localStorage?.getItem("idDarkMode");
+    var curDate = new Date();
+    var isLight = curDate.getHours() >= 6 && curDate.getHours() < 19;
+
+    if (isLight) {
       localStorage.setItem("idDarkMode", false);
       document.body.classList.remove("dark-theme");
       addlightBg();
@@ -42,8 +45,11 @@ export default function HeaderTwo() {
   };
 
   useEffect(() => {
-    const currentState = localStorage?.getItem("idDarkMode");
-    if (JSON.parse(currentState) == true) {
+    // const currentState = localStorage?.getItem("idDarkMode");
+    var curDate = new Date();
+    var isLight = curDate.getHours() >= 6 && curDate.getHours() < 19;
+
+    if (!isLight) {
       document.body.classList.add("dark-theme");
       addDarkbg();
     } else {

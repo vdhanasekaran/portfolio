@@ -34,6 +34,12 @@ export default function Menu({ setMenuOpen, data }) {
               style={{ paddingTop: "5px", paddingBottom: "4px" }}
               onClick={() => {
                 setMenuOpen(false);
+                var  sdsd = document.getElementsByClassName('bostami-page-content-wrap');
+                console.log(sdsd);
+                if(sdsd != undefined && sdsd != null && sdsd.length > 0)
+                {
+                  sdsd[0].scrollIntoView();
+                }
               }}
             >
               <Link href={elm.href}>

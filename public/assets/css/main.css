@@ -2181,7 +2181,7 @@ textarea:focus::placeholder {
 }
 
 .page-wrapper.home-1 {
-  padding-top: 50px;
+  padding-top: 0px;
   padding-bottom: 60px;
 }
 
@@ -2587,7 +2587,7 @@ textarea:focus::placeholder {
   only screen and (min-width: 768px) and (max-width: 991px),
   (max-width: 767px) {
   .home-1 .bostami-header-area {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
   }
 }
 .home-1 .bostami-header-wrap {
@@ -2903,7 +2903,7 @@ textarea:focus::placeholder {
   line-height: 24px;
   font-weight: 400;
   color: var(--common-black);
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   margin-bottom: 0;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {

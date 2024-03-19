@@ -115,17 +115,17 @@ export const filterButtons = [
     id: 1,
 
     text: "All",
-  },
-  {
-    id: 2,
-    text: "Mockup",
-  },
-  {
-    id: 3,
-    text: "Graphic Design",
-  },
-  {
-    id: 4,
-    text: "Logo",
-  },
+  }
+  // {
+  //   id: 2,
+  //   text: "Mockup",
+  // },
+  // {
+  //   id: 3,
+  //   text: "Graphic Design",
+  // },
+  // {
+  //   id: 4,
+  //   text: "Logo",
+  // },
 ];

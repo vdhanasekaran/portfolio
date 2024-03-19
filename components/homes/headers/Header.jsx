@@ -30,9 +30,11 @@ export default function Header() {
   };
 
   const handleDarkmode = () => {
-    const currentState = localStorage?.getItem("idDarkMode");
+    // const currentState = localStorage?.getItem("idDarkMode");
+    var curDate = new Date();
+    var isLight = curDate.getHours() >= 6 && curDate.getHours() < 19;
 
-    if (JSON.parse(currentState) == true) {
+    if (isLight) {
       localStorage.setItem("idDarkMode", false);
       document.body.classList.remove("dark-theme");
 
@@ -45,8 +47,11 @@ export default function Header() {
   };
   const [menuOpen, setMenuOpen] = useState(false);
   useEffect(() => {
-    const currentState = localStorage?.getItem("idDarkMode");
-    if (JSON.parse(currentState) == true) {
+    // const currentState = localStorage?.getItem("idDarkMode");
+    var curDate = new Date();
+    var isLight = curDate.getHours() >= 6 && curDate.getHours() < 19;
+
+    if (!isLight) {
       document.body.classList.add("dark-theme");
       addDarkbg();
     } else {
@@ -78,7 +83,7 @@ export default function Header() {
 
             <div className="col-12">
               <div className="bostami-header-menu-btn text-right">
-                <div
+                <div style={{visibility:"hidden"}}
                   className="dark-btn dark-btn-stored mode-btn"
                   onClick={() => handleDarkmode()}
                 >

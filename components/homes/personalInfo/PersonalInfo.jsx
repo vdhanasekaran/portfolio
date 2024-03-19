@@ -45,9 +45,9 @@ export default function PersonalInfo() {
                 </div>
                 <div className="text">  
                    <span>{elm.text.label}</span>
-                 {((elm.id === 1 || elm.id === 2) && <p><a href={"tel:" + elm.text.value}>{elm.text.value}</a></p>)}
+                 {((elm.id === 1) && <p><a href={"tel:" + elm.text.value}>{elm.text.value}</a></p>)}
                  {((elm.id === 3) && <p><a href={"mailto:" + elm.text.value}>{elm.text.value}</a></p>)}
-                 {(elm.id !== 1 && elm.id !== 2 && elm.id !== 3 && <p>{elm.text.value}</p>)}
+                 {(elm.id !== 1 && elm.id !== 3 && <p>{elm.text.value}</p>)}
                 </div>
               </div>
             ))}
