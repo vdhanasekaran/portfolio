@@ -8,9 +8,9 @@ import Home1 from "./(homes)/home-1/page";
 import "../public/assets/css/style.css";
 
 export const metadata = {
-  title: "Preview || Bostami - Professional portfolio NextJS Template",
+  title: "Vivek - Software Engineer",
   description:
-    "Discover Botami,the most impressive portfolio template for work showcase, blog",
+    "Reliable and detail-oriented professional",
 };
 export default function page() {
   return (
